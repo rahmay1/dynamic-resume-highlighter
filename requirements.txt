@@ -1,0 +1,8 @@
+aiohttp>=3.9
+rapidfuzz>=3.0
+requests>=2.31
+sentence-transformers>=2.2
+# torch is pulled in by sentence-transformers on most platforms; if not, uncomment:
+# torch>=2.1
+# Optional (only if you want spaCy features on some machines):
+# spacy>=3.7

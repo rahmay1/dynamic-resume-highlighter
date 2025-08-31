@@ -1,0 +1,41 @@
+The Opportunity
+
+We are looking for a motivated and curious Full Stack Development Intern to join our engineering team. This is not a "get coffee" internship—you will be working on real projects, writing production code, and contributing to features that our customers use. You will be paired with a dedicated mentor to guide you through your journey and help you grow your skills.
+
+What You'll Do:
+
+Assist in the development and maintenance of our web applications across the entire stack (front-end and back-end).
+
+Build responsive and interactive user interfaces using modern frameworks.
+
+Develop and integrate RESTful APIs and backend services.
+
+Write clean, maintainable, and well-tested code.
+
+Participate in code reviews and team meetings to discuss solutions and best practices.
+
+Collaborate with product managers, designers, and other developers in an agile environment.
+
+Learn about software development life cycle, from conception to deployment.
+
+We're Looking For Someone With:
+
+Currently pursuing or recently completed a degree in Computer Science, Software Engineering, or a related field.
+
+Basic understanding of front-end technologies such as HTML5, CSS3, and JavaScript (ES6+).
+
+Familiarity with at least one modern front-end framework like React, Vue.js, or Angular.
+
+Basic understanding of back-end development concepts and a willingness to learn frameworks like Node.js/Express, Python/Django, or Java/Spring.
+
+Knowledge of databases (SQL like PostgreSQL/MySQL or NoSQL like MongoDB).
+
+Understanding of Git and version control.
+
+A strong passion for learning new technologies and solving problems.
+
+Good communication skills and a collaborative mindset.
+
+Ability to read and write technical documentation in English.
+
+GPA

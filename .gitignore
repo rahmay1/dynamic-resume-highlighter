@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+.env
+.venv/
+venv/
+pip-wheel-metadata/
+
+# Caches
+.skill_cache/
+.cache/
+.hypothesis/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Outputs
+output_highlighted/
+*.pdf
+
+# Editors
+.vscode/
+.idea/
