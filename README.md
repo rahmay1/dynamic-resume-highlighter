@@ -181,9 +181,48 @@ python highlight_resume_dynamic.py --jd jd.txt --root ./resume --out output_high
 
 ---
 
+## Example (Try it in 30 seconds)
+
+This repo includes a **minimal, fake** resume and job description so anyone can dry‑run the highlighter without your files.
+
+**Project layout of the example:**
+
+```text
+examples/
+├─ jd_sample.txt
+└─ resume/
+   ├─ resume.tex
+   └─ src/
+      ├─ experience.tex
+      ├─ projects.tex
+      ├─ skills.tex
+      └─ education.tex
+```
+
+**Run the sample:**
+
+```bash
+# From the repo root
+python highlight_resume_dynamic.py \
+  --jd examples/jd_sample.txt \
+  --root examples/resume \
+  --out output_highlighted \
+  --try-pdf
+```
+
+Notes:
+- The LaTeX files mimic common resume structure and include a simple `\resumeItem{...}` macro so PDF compilation works.
+- Education lines such as “Bachelor … | Minor in Computer Science | GPA …” are present to demonstrate suppression of generic terms (not highlighted).
+- The sample JD asks for Node.js, Express, REST APIs, SQL, PostgreSQL, Angular, TypeScript, HTML/CSS, and Git.
+
+**Download the example bundle:** [examples_bundle.zip](sandbox:/mnt/data/examples_bundle.zip)
+
+If you don’t want to compile a PDF, omit `--try-pdf` and inspect the `.tex` in `output_highlighted/` to see bolded matches.
+
+---
+
 ## 📈 Roadmap (nice‑to‑haves)
 
-- Add a small sample resume and JD in `/examples` with before/after PDFs.
 - Simple web front‑end to run in a browser (Pyodide/wasm).
 - Optional export to DOCX.
 

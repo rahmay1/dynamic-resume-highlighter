@@ -1,0 +1,10 @@
+We are hiring a Full‑Stack Engineer.
+
+Requirements
+- Strong experience building REST APIs with Node.js and Express
+- TypeScript or JavaScript on the frontend (Angular preferred) and solid HTML/CSS
+- SQL and PostgreSQL for relational data
+- Git/GitHub for collaboration
+
+Nice to have
+- Python/Flask APIs
