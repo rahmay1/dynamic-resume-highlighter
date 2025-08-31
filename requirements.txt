@@ -1,8 +1,5 @@
-aiohttp>=3.9
-rapidfuzz>=3.0
-requests>=2.31
-sentence-transformers>=2.2
-# torch is pulled in by sentence-transformers on most platforms; if not, uncomment:
-# torch>=2.1
-# Optional (only if you want spaCy features on some machines):
-# spacy>=3.7
+aiohttp==3.9.5
+rapidfuzz==3.9.4
+sentence-transformers==2.7.0
+torch>=2.2.0           # only needed for semantic matching
+spacy>=3.7.2           # optional; your script tolerates missing spaCy
