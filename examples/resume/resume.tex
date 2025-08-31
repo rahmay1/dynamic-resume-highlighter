@@ -1,12 +1,43 @@
-\documentclass[letterpaper,11pt]{article}
-\usepackage[margin=1in]{geometry}
-\usepackage[hidelinks]{hyperref}
-\newcommand{\resumeItem}[1]{#1}
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.8in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{url}
+
+% ----------------- Simple, portable resume macros -----------------
+\newcommand{\resumeItem}[1]{\item #1}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+  \textbf{#1} \hfill {\small #3}\\
+  \textit{#2} \hfill {\small #4}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,itemsep=2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+\setlength{\parindent}{0pt}
 \begin{document}
 
-\input{src/experience}
-\input{src/projects}
-\input{src/skills}
-\input{src/education}
+\begin{center}
+{\LARGE Alex Example}\\
+\small \href{mailto:alex@example.com}{alex@example.com} \;|\; \url{https://github.com/example}\\
+\end{center}
+
+\section*{Skills}
+\input{skills.tex}
+
+\section*{Experience}
+\input{experience.tex}
+
+\section*{Projects}
+\input{projects.tex}
+
+\section*{Education}
+\input{education.tex}
 
 \end{document}

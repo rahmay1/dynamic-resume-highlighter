@@ -1,10 +1,9 @@
-We are hiring a Full‑Stack Engineer.
+We are hiring a full‑stack engineer to build web products.
+Required technologies:
+- JavaScript / TypeScript, HTML, CSS
+- Node.js with Express (backend), Angular (frontend)
+- REST APIs (design, implementation, testing)
+- SQL and PostgreSQL
+- Git / GitHub workflows
 
-Requirements
-- Strong experience building REST APIs with Node.js and Express
-- TypeScript or JavaScript on the frontend (Angular preferred) and solid HTML/CSS
-- SQL and PostgreSQL for relational data
-- Git/GitHub for collaboration
-
-Nice to have
-- Python/Flask APIs
+Bonus: distributed systems knowledge and CI pipelines.
